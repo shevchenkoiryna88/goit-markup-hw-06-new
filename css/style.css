@@ -320,6 +320,7 @@ max-width: 496px;}
 
 .section-tree{
     padding-bottom: 120px;
+    display: none;
 }
 
 .section-tree-list-display{
