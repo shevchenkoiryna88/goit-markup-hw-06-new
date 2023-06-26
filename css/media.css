@@ -9,6 +9,11 @@
     width: 30px;
     height: 30px;}
 
+    .section-four-list-display{
+    
+    padding-left: 36px;
+    padding-right: 36px;}
+
         
     
     }
@@ -26,27 +31,27 @@
 
     
     /* Styles for media tablet 768 */
+    
     @media screen and (min-width:768px) {
+
         .container{max-width: 768px;}
 
         .section-two-item-display{
             max-width: unset;
-            width: calc((100% - 24px) / 2);
-            
-            } 
+            width: calc((100% - 24px) / 2);  } 
 
-        .section-two-list-display{
-            
+        .section-two-list-display{            
             gap: 72px 24px;
             padding-left: 16px;
-            padding-right: 16px;  }
+            padding-right: 16px; }
 
         .section-two-titel {
-            text-align: left;
-        }
+            text-align: left; }
     
             .section-four-list-display {   
-            gap: 64px 24px;}
+            gap: 64px 24px;
+            padding-left: 92px;
+            padding-right: 92px;}
 
 
             .section-four-li {
@@ -54,11 +59,18 @@
 
             .section-four-div {padding: 32px 16px;}
 
+            .section-customers-list {    
+            gap: 72px 24px;}
+
+            .section-customers-li {
+                width: calc((100% - 48px) / 3);}
+
     }
     
 
 
      /* Styles for media desk 1158 */
+
     @media screen and (min-width:1158px) {
         .container{max-width: 1158px;}
 
@@ -73,20 +85,17 @@
         .section-two-svg{display: flex;} 
 
         .section-two-text {
-            font-weight: 400;
-        }
+            font-weight: 400;        }
 
         .section-two-titel {
             font-size: 20px;
             
             font-weight: 500;
             line-height: 24px;
-            letter-spacing: 0.4px;
-        }
+            letter-spacing: 0.4px;        }
 
         .section-tree{
-            display: block;
-        }
+            display: block;        }
         
         .section-four{   
         padding: 120px 0;}
@@ -102,8 +111,7 @@
     flex-wrap: nowrap;
      gap: 24px;
      padding-left: 0;
-     padding-right: 0;
-}
+     padding-right: 0;}
 
 .section-four-li{
     width: calc((100% - 72px) / 4);}
@@ -111,6 +119,19 @@
 .section-four-div{
     padding: 32px 0;}
     
-    
+    .section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;}
+
+.section-customers-li {
+    width: calc((100% - 120px) / 6);
+    height: 88px;}
+
+.section-customers-list{
+        gap: 24px;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        padding-right: 0;}
+
 
     }
