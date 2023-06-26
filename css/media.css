@@ -31,7 +31,7 @@
 
     
     /* Styles for media tablet 768 */
-    
+
     @media screen and (min-width:768px) {
 
         .container{max-width: 768px;}
@@ -60,7 +60,9 @@
             .section-four-div {padding: 32px 16px;}
 
             .section-customers-list {    
-            gap: 72px 24px;}
+            gap: 72px 24px;
+            padding-left: 92px;
+            padding-right: 92px;} 
 
             .section-customers-li {
                 width: calc((100% - 48px) / 3);}
