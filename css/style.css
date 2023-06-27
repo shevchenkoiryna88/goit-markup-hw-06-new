@@ -90,7 +90,8 @@ a {
 /* Header Style */
 
 .header-display-flex{
-    display: flex;}
+    display: flex;
+    justify-content: space-between;}
 
 .logo{font-family: "Raleway",sans-serif;
 font-weight: 800;
@@ -229,6 +230,7 @@ position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .mob-menu-list{

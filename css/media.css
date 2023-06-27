@@ -14,7 +14,10 @@
     padding-left: 36px;
     padding-right: 36px;}
 
-    .menu-tel-link {font-size: 24px;}
+    .menu-tel-link {font-size: 22px;}
+
+    .mob-menu-social-list {    
+    gap: 12px;}
 
         
     
