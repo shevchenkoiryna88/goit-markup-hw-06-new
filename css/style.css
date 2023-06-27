@@ -202,27 +202,30 @@ position: absolute;
 
 .hero{
     background-color:var(--hero-background-color);
-    padding: 188px 0;
+    padding: 112px 0;
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office.jpg);
-    max-width: 1440px;
+    max-width: 1158px;
     background-repeat: no-repeat;
     background-position: center;
     
     background-size: cover;
-    height: 600px;
+    height: 432px;
     margin: 0 auto;
     }
 
-.hero-titel{font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #ffffff;
-margin: 0 auto;
-margin-bottom: 48px;
-max-width: 496px;}
+
+
+.hero-titel {
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    max-width: 320px;}
 
 .hero-button{
     margin: 0 auto;

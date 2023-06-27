@@ -67,6 +67,16 @@
             .section-customers-li {
                 width: calc((100% - 48px) / 3);}
 
+            .hero{
+                height: 436px;
+            }
+
+            .hero-titel {
+                margin-bottom: 36px;
+            font-size: 56px;
+            max-width: 496px;
+                }
+
     }
     
 
@@ -134,6 +144,19 @@
         flex-wrap: nowrap;
         padding-left: 0;
         padding-right: 0;}
+.hero {
+    
+    padding: 188px 0;
+    height: 600px;}
 
+    .hero-titel{
+        font-size: 56px;
+        line-height: 1.07;
+        /* text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin: 0 auto; */
+        margin-bottom: 48px;
+        max-width: 496px;}
 
     }
