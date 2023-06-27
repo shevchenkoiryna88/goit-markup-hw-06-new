@@ -53,8 +53,65 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                 </ul>
         </address>
         
-</div> -->
-<!-- </header>
+        <button type="button" class="open-menu">E</button>
+</div>
+
+<!-- Модалка Navigation MENU -->
+<div class="mob-menu">
+    <button type="button" class="close-menu">X</button>
+
+      
+        <ul class="mob-menu-list">
+            <li><a href="./index.html" class="page-nav-link link page-nav-link-addition">Studio</a></li>
+            <li><a href="./portfolio.html" class="mob-menu-link link">Portfolio</a></li>
+            <li><a href="" class="mob-menu-link link">Contacts</a></li>
+        </ul>
+        <address class="menu-adress">
+            <ul class="menu-adress-list">
+                <li><a href="mailto:info@devstudio.com" class="menu-adress-link link">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="menu-adress-link link">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+
+<!-- Соц мережі в меню-модалці на моб -->
+        <ul class="section-four-social-list">
+        
+        
+            <li class="mob-menu-social-link">
+                <a class="mob-menu-soc-link-a" href="" aria-label="instagram" target="_blank" rel="noopener noreferrer">
+                    <svg class="mob-menu-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="mob-menu-social-link">
+                <a class="mob-menu-soc-link-a" href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">
+                    <svg class="mob-menu-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="mob-menu-social-link">
+                <a class="mob-menu-soc-link-a" href="" aria-label="facebook" target="_blank" rel="noopener noreferrer">
+                    <svg class="mob-menu-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="mob-menu-social-link">
+                <a class="mob-menu-soc-link-a" href="" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
+                    <svg class="smob-menu-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+     
+</div>
+</header>
 
 <!-- HEADER END -->
 
@@ -527,39 +584,39 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
 
 <!-- Modal WINDOW -->
 
-<!-- <div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal>
 
-    <div class="modalwindow"> -->
+    <div class="modalwindow">
 
 <!-- кнопка закрытия модалки -->
-<!-- 
+
         <button class="modal-btn" type="button" data-modal-close>
             <svg class="modal-svg" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
-        </button> -->
+        </button>
 
 <!-- название модального окна ) ПАРАГРАФ -->
 
-<!-- <p class="modal-text">
+<p class="modal-text">
     Leave your contacts and we will call you back
-</p> -->
+</p>
 
 <!-- Три поля ввода имя , тел, имейл -->
 
-<!-- <form   name="Leave your contacts" 
+<form   name="Leave your contacts" 
         class="modal-form" 
-        autocomplete="off"> -->
+        autocomplete="off">
 
 <!-- First input NAME-->
-<!-- 
+
     <div class="modal-div-input-general">
             <label  class="modal-form-label"                
-                    for="user-name">Name</label> -->
+                    for="user-name">Name</label>
 
 <!-- Після label наступним йде div, який є контейнером для input та іконки -->
 
-        <!-- <div class="modal-div-input-and-svg">
+        <div class="modal-div-input-and-svg">
             <input  type="text" 
                     id="user-name"
                     name="user-name"
@@ -569,17 +626,17 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                 <use href="./images/icons.svg#icon-user"></use>
             </svg>
         </div>
-    </div> -->
+    </div>
 
     <!-- second input PHONE -->
-<!-- 
+
     <div class="modal-div-input-general">
             <label  class="modal-form-label" 
-                    for="Phone">Phone</label> -->
+                    for="Phone">Phone</label>
             
 <!-- Після label наступним йде div, який є контейнером для input та іконки -->
         
-            <!-- <div class="modal-div-input-and-svg">
+            <div class="modal-div-input-and-svg">
                 <input  type="text" 
                         id="Phone" 
                         name="Phone" 
@@ -590,18 +647,18 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                 </svg>
         
             </div>
-    </div> -->
+    </div>
     
 
     <!-- Third input EMAIL -->
-<!-- 
+
     <div class="modal-div-input-general">
             <label  class="modal-form-label" 
-                    for="Email">Email</label> -->
+                    for="Email">Email</label>
         
 <!-- Після label наступним йде div, який є контейнером для input та іконки -->
         
-        <!-- <div class="modal-div-input-and-svg">
+        <div class="modal-div-input-and-svg">
                 <input  type="text" 
                         id="Email" 
                         name="Email" 
@@ -612,11 +669,11 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                 </svg>
         
         </div>
-    </div> -->
+    </div>
 
 <!-- Fourth element in modal window (textarea) -->
 
-    <!-- <div class="modal-window-div-textarea">
+    <div class="modal-window-div-textarea">
                     <label  class="modal-form-label" 
                             for="user-comment">Comment</label>
 
@@ -626,21 +683,21 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                                 rows="10"
                                 placeholder="Text input"
                                 class="modal-textarea"></textarea>
-    </div> -->
+    </div>
 
 <!-- П'ятим дочірнім елементом форми є div, що є контейнером для чекбоксу з label -->
 
-    <!-- <div class="modal-checkbox ">
+    <div class="modal-checkbox ">
 
             <input  class="modal-input-checkbox visually-hidden"
                     type="checkbox"
                     id="user-privacy"        
                     value="true"
-                    name="user-privacy"> -->
+                    name="user-privacy">
             
 <!-- Для input додано атрибут value="true" для встановлення початкового значення елемента форми -->
                         
-        <!-- <label for="user-privacy" class="modal-checkbox-label">
+        <label for="user-privacy" class="modal-checkbox-label">
             <span class="modal-checkbox-span">
                 <svg class="modal-svg-checkbox" width="10" height="8">
                     <use href="./images/icons.svg#icon-check"></use>
@@ -650,15 +707,15 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
             <a class="modal-link" href="">Privacy Policy</a>       
         </label>     
 
-    </div> -->
+    </div>
 
 <!-- Button SEND -->
     
-    <!-- <button type="submit" class="modal-btn-send">Send</button>
+    <button type="submit" class="modal-btn-send">Send</button>
 
     </form>
     </div>
-    </div> -->
+    </div>
 
 <!-- Modal WINDOW END -->
 

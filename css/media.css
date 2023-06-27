@@ -91,6 +91,8 @@
                 font-size: 56px;
                 max-width: 496px; }
 
+                
+
 /* Image optimization TAB*/
 
     @media (min-device-pixel-ratio: 2),
@@ -100,6 +102,63 @@
             background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-tab-2x.jpg);}    }
+
+
+        /* HEADER TAB */
+
+        
+
+
+
+.nav-display{
+    display: flex;
+    align-items: center; }
+
+
+
+.page-logo-span{
+
+}
+
+.nav-list-displey-flex {
+    display: flex;
+    gap: 40px;}
+
+.page-nav-link{
+    padding: 22px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--hero-background-color);
+    transition-property:color;
+    transition-duration:250ms;     
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+.page-nav-link-addition{
+    position: relative;
+    color: #404bbf;    }
+
+.adress {
+    /* display: block; */
+    display: flex;
+    font-style: normal;
+    margin-left: auto;
+}
+
+.adress-list-display-flex{
+    display: flex;
+    gap: 40px;}
+
+.adress-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
 
 
     }
@@ -189,7 +248,7 @@
         margin-bottom: 48px;
         max-width: 496px;}
 
-  /* Image optimization DESK*/
+/* Image optimization DESK*/
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -199,7 +258,7 @@
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-desk-2x.jpg);}}
 
-        /* <!-- HEADER Desk --> */
+/* <!-- HEADER Desk --> */
 
         .page-header{
             box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
@@ -263,6 +322,10 @@
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
     /* <!-- HEADER Desk END--> */
+
+
+
+    /* <!-- Modal WINDOW END --> */
 
 
 

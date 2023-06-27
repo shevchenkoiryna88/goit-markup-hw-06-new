@@ -112,7 +112,10 @@ margin-right: 76px;
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
                 0px 1px 6px rgba(46, 47, 66, 0.08);;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    /* padding: 24px 0; */
+    padding-top: 25px;
+    padding-left: 16px;
+    padding-bottom: 23px;
 }
 
 .page-logo-span{color: var(--hero-background-color);}
@@ -121,12 +124,11 @@ margin-right: 76px;
     display: flex;
     align-items: center; }
 
-.nav-list-displey-flex{
-    display: flex;
-    gap: 40px;
-}
 
-.page-nav-link 
+
+.nav-list-displey-flex{display: none;}
+
+/* .page-nav-link 
 {
     padding: 22px 0;
     font-weight: 500;
@@ -136,14 +138,12 @@ margin-right: 76px;
     color: var(--hero-background-color);
     transition-property:color;
     transition-duration:250ms;     
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);} */
 
-.page-nav-link-addition{
+/* .page-nav-link-addition{
     position: relative;
     color: #404bbf;
-    }
+    } */
 
 .page-nav-link-addition::after{
     width: 100%;
@@ -178,24 +178,48 @@ position: absolute;
 }
 
 .adress{
-    font-style: normal;
-    margin-left: auto;    }
+    display: none;    }
 
-.adress-list-display-flex{
+/* .adress-list-display-flex{
     display: flex;
-    gap: 40px;}
+    gap: 40px;} */
 
-.adress-link{
+/* .adress-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-text-color);
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);} */
 
 .adress-link:hover{color: var(--pressed-state-color);}
 .adress-link:focus{color: var(--pressed-state-color);}
+/* MENU BTN */
+.open-menu{
+
+}
+
+/* MOBILE MENU */
+
+.mob-menu{}
+
+.mob-menu-list{}
+
+.mob-menu-link{}
+
+.menu-adress{}
+
+.menu-adress-list{}
+
+.menu-adress-link{}
+
+.mob-menu-social-link{}
+
+.mob-menu-soc-link-a{}
+
+.mob-menu-svg{}
+
 
 
 /* Section 1 Hero */
