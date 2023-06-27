@@ -199,6 +199,72 @@
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-desk-2x.jpg);}}
 
+        /* <!-- HEADER Desk --> */
+
+        .page-header{
+            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 1px 6px rgba(46, 47, 66, 0.08);;
+            border-bottom: 1px solid #e7e9fc;
+            padding: 24px 0;        }
+
+        .header-display-flex{display: flex;}
+
+        .nav-display{
+            display: flex;
+            align-items: center;        }
+
+        .logo{
+            font-family: "Raleway",sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--primary-barand-color);
+            margin-right: 76px;        }
+
+        .page-logo-span{
+            color: var(--hero-background-color);        }
+
+        .nav-list-displey-flex{
+            display: flex;
+            gap: 40px;}
+
+        .page-nav-link{
+            padding: 22px 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--hero-background-color);
+            transition-property:color;
+            transition-duration:250ms;     
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+        .page-nav-link-addition{
+            position: relative;
+            color: #404bbf;        }
+
+        .adress{
+            font-style: normal;
+            margin-left: auto;}
+
+        .adress-list-display-flex{
+            display: flex;
+            gap: 40px;}
+
+        .adress-link{font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--body-text-color);
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+    /* <!-- HEADER Desk END--> */
+
+
 
     }
 
