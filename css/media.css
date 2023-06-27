@@ -26,7 +26,19 @@
         .section-two-item-display{
             max-width: 396px; }
 
+/* Image optimization MOBILE*/
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mob-2x.jpg);}}
+
     }
+
+    
     
 
     
@@ -69,15 +81,30 @@
 
             .hero{
                 height: 436px;
-            }
+                  background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-tab.jpg);           }
+
 
             .hero-titel {
                 margin-bottom: 36px;
-            font-size: 56px;
-            max-width: 496px;
-                }
+                font-size: 56px;
+                max-width: 496px; }
+
+/* Image optimization TAB*/
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-tab-2x.jpg);}    }
+
 
     }
+
+
     
 
 
@@ -147,7 +174,10 @@
 .hero {
     
     padding: 188px 0;
-    height: 600px;}
+    height: 600px;
+    background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);}
 
     .hero-titel{
         font-size: 56px;
@@ -159,4 +189,17 @@
         margin-bottom: 48px;
         max-width: 496px;}
 
+  /* Image optimization DESK*/
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero{
+            background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desk-2x.jpg);}}
+
+
     }
+
+  
