@@ -111,19 +111,9 @@
 
         /* HEADER TAB */
 
-        
-
-
-
 .nav-display{
     display: flex;
     align-items: center; }
-
-
-
-.page-logo-span{
-
-}
 
 .nav-list-displey-flex {
     display: flex;
@@ -145,11 +135,9 @@
     color: #404bbf;    }
 
 .adress {
-    /* display: block; */
     display: flex;
     font-style: normal;
-    margin-left: auto;
-}
+    margin-left: auto;}
 
 .adress-list-display-flex{
     display: flex;
@@ -170,12 +158,46 @@
     gap: 11px;
     flex-direction: column;}
 
-.logo{
-    margin-right: 120px;}
+.logo{margin-right: 120px;}
 
 
-.modalwindow{
-    max-width: 392px;}
+.modalwindow{max-width: 392px;}
+
+.footer-div {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+	gap: 72px 24px}
+
+.footer-paragraf {
+    width: 264px;
+    margin-left: 108px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0;}
+
+.footer-subscribe-text {
+    text-align: left;
+    margin-left: 108px;}
+
+    .footer-soc-div {
+    margin: 0;
+    margin-bottom: 0;}
+
+    .footer-subscribe-form-wrap {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;}
+
+.footer-label {
+    margin: unset;
+    padding: unset;
+    margin-left: 108px;}
+
 
 
 
@@ -360,6 +382,50 @@
     /* <!-- Modal WINDOW END --> */
 
 
+    .footer-div {
+        display: flex;
+        flex-wrap: nowrap;}
+
+    .footer-subscribe-form-wrap{
+        flex-direction: row;
+    }
+
+    .footer-logo{
+        margin-bottom: 16px;
+    }
+
+    .footer-paragraf{
+    margin: unset;
+    display: block;
+    margin-right: 120px;
+}
+
+.footer-soc-div{
+    margin: unset;
+    margin-right: 80px;    }
+
+    .footer-social-media{
+        text-align: left;}
+
+    .footer-subscribe-text{
+        margin: unset;
+        text-align: left;
+        margin-bottom: 16px;}
+
+    .footer-subscribe-form-wrap{
+    gap: 24px;}
+
+.footer-label{
+    margin: unset;
+    padding: unset;}
+
+.footer-input{
+    width: 264px;
+    height: 40px;
+    opacity: 1;}
+
+.footer-text {
+    width: 264px;}
 
     }
 
