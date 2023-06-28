@@ -212,7 +212,8 @@ position: absolute;
 }
 
 
-.menu-burger-svg{}
+.menu-burger-svg{
+    background-color: #ffffff;}
 
 /* MOBILE MENU */
 .close-menu{
