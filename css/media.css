@@ -230,7 +230,10 @@
             
             font-weight: 500;
             line-height: 24px;
-            letter-spacing: 0.4px;        }
+            letter-spacing: 0.4px;}
+
+        .section-two-list-display{ 
+                padding: unset;}
 
         .section-tree{
             display: block;        }
@@ -384,7 +387,8 @@
 
     .footer-div {
         display: flex;
-        flex-wrap: nowrap;}
+        flex-wrap: nowrap;
+        gap: unset;}
 
     .footer-subscribe-form-wrap{
         flex-direction: row;
