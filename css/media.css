@@ -212,7 +212,7 @@
     @media screen and (min-width:1158px) {
         .container{max-width: 1158px;}
 
-        .section-two {padding: 120px 0;}
+        .section-two {padding:0;}
 
         .section-two-item-display{
             max-width: unset;
