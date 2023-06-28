@@ -171,8 +171,11 @@
     flex-direction: column;}
 
 .logo{
-    margin-right: 120px;
-}
+    margin-right: 120px;}
+
+
+.modalwindow{
+    max-width: 392px;}
 
 
 
@@ -342,6 +345,13 @@
 
         .adress-list-display-flex {    
             flex-direction: row;}
+
+        .modal-svg-input{
+            width: 18px;
+            height: 24px;        }
+
+        .modalwindow{
+            max-width: 392px;}
 
     /* <!-- HEADER Desk END--> */
 
