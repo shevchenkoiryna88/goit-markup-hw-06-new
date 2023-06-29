@@ -1,21 +1,16 @@
 /* Styles for media under 427 */
 @media screen and (max-width: 427px) {
   .container {
-    min-width: 320px;
-  }
-
-  .section-four-social-list {
-    gap: 8px;
   }
 
   .section-four-soc-link-a {
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
   }
 
   .section-four-list-display {
-    padding-left: 36px;
-    padding-right: 36px;
+    /* padding-left: 36px;
+    padding-right: 36px; */
   }
 
   .menu-tel-link {
@@ -23,7 +18,7 @@
   }
 
   .mob-menu-social-list {
-    gap: 12px;
+    gap: 38px;
   }
 }
 
@@ -31,11 +26,18 @@
 
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 428px;
+    max-width: 296px;
   }
 
+  .mob-menu-social-list {
+    gap: 56px;
+  }
   .section-two-item-display {
     max-width: 396px;
+  }
+
+  .section-four-social-list {
+    gap: 24px;
   }
 
   /* Image optimization MOBILE*/
@@ -53,8 +55,6 @@
   }
 }
 
-
-
 /* Styles for media tablet 768 */
 
 @media screen and (min-width: 768px) {
@@ -69,8 +69,6 @@
 
   .section-two-list-display {
     gap: 72px 24px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   .section-two-titel {
@@ -79,8 +77,6 @@
 
   .section-four-list-display {
     gap: 64px 24px;
-    padding-left: 92px;
-    padding-right: 92px;
   }
 
   .section-four-li {
@@ -89,6 +85,10 @@
 
   .section-four-div {
     padding: 32px 16px;
+  }
+
+  .section-four-social-list {
+    gap: 24px;
   }
 
   .section-customers-list {
@@ -159,6 +159,11 @@
     color: #404bbf;
   }
 
+  .page-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .adress {
     display: flex;
     font-style: normal;
@@ -171,7 +176,7 @@
   }
 
   .adress-link {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-text-color);
@@ -203,11 +208,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
+    max-width: 550px;
   }
 
   .footer-paragraf {
     width: 264px;
-    margin-left: 108px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,12 +222,15 @@
 
   .footer-subscribe-text {
     text-align: left;
-    margin-left: 108px;
+  }
+
+  .footer-subscribe-btn {
+    margin-left: 0;
+    margin-top: 0;
   }
 
   .footer-soc-div {
-    margin: 0;
-    margin-bottom: 0;
+    margin: unset;
   }
 
   .footer-subscribe-form-wrap {
@@ -235,11 +243,12 @@
   .footer-label {
     margin: unset;
     padding: unset;
-    margin-left: 108px;
+  }
+  .footer-input {
+    width: unset;
+    width: 264px;
   }
 }
-
-
 
 /* Styles for media desk 1158 */
 
@@ -310,6 +319,10 @@
     padding: 32px 0;
   }
 
+  .section-four-social-list {
+    gap: 24px;
+  }
+
   .section-customers {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -356,8 +369,6 @@
         url(../images/people-office-desk-2x.jpg);
     }
   }
-
-  
 
   .page-header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -476,6 +487,10 @@
 
   .footer-social-media {
     text-align: left;
+  }
+
+  .footer-subscribe-btn {
+    margin-top: 0;
   }
 
   .footer-subscribe-text {
