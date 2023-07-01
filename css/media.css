@@ -3,6 +3,12 @@
   .container {
   }
 
+  .page-nav-link-addition::after{
+    width: 120px;
+    left: 20px;
+    bottom: 475px;
+  }
+
   .section-four-soc-link-a {
     /* width: 30px;
     height: 30px; */
@@ -20,15 +26,31 @@
   .mob-menu-social-list {
     gap: 38px;
   }
+   @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-mob-2x.jpg);
+    }
+  }
 }
 
 /* Styles for media mobile 428 */
 
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 296px;
+    /* max-width: 296px; */
+    max-width: 428px;
   }
-
+.page-nav-link-addition::after{
+    width: 120px;
+    left: 20px;
+    bottom: 475px;
+  }
   .mob-menu-social-list {
     gap: 56px;
   }
@@ -80,7 +102,7 @@
   }
 
   .section-four-li {
-    width: calc((100% - 24px) / 2);
+    
   }
 
   .section-four-div {
@@ -158,6 +180,9 @@
     position: relative;
     color: #404bbf;
   }
+  .page-nav-link-addition::after {
+    bottom: 3px;
+  }
 
   .page-header {
     padding-top: 0;
@@ -198,6 +223,10 @@
     margin-right: 120px;
   }
 
+  .footer-logo{
+    width: 100%;
+  }
+
   .modalwindow {
     max-width: 392px;
   }
@@ -214,8 +243,8 @@
   .footer-paragraf {
     width: 264px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-direction: column;
     margin-bottom: 0;
   }
@@ -231,6 +260,10 @@
 
   .footer-soc-div {
     margin: unset;
+  }
+
+  .footer-social-media {
+    text-align: left;
   }
 
   .footer-subscribe-form-wrap {
@@ -342,11 +375,12 @@
   .hero {
     padding: 188px 0;
     height: 600px;
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/people-office-desk-2x.jpg);
   }
 
   .hero-titel {
